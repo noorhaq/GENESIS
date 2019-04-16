@@ -2,6 +2,7 @@
 sudo apt install figlet ;
 mkdir TOOLS ;
 figlet -c G E N E S I S ;
+chmod +x *.sh
 echo " Installing bFactor" ; 	
 sudo ./bfactor.sh  ;
 echo " Installing EDF" ;
