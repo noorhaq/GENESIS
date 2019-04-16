@@ -12,7 +12,7 @@ make
 export ROME_CC=mpicxx
 make
 
-
+cd ..
 rm -r ROME.zip
 cd ..
 
