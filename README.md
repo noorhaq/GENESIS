@@ -1,9 +1,9 @@
 # GENESIS
- \nA tools for Cyro-Electron Genetic Microscope Imaging
-\nTo Download and Install all Tools
-\nJust run command 
-\ngit clone https://github.com/noorhaq/GENESIS.git
-\nAfterwards Run command
-\ncd GENESIS
-\nchmod +x Main.sh
-\n sudo bash MAIN_Ubuntu.sh
+A tools for Cyro-Electron Genetic Microscope Imaging
+#To Download and Install all Tools
+Just run command 
+$ git clone https://github.com/noorhaq/GENESIS.git
+#Afterwards Run command
+$ cd GENESIS
+$ chmod +x Main.sh
+$ sudo bash MAIN_Ubuntu.sh
