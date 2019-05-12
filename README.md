@@ -6,6 +6,6 @@ Just run command
 $ git clone https://github.com/noorhaq/GENESIS.git
 # Afterwards Run command
 $ cd GENESIS
-$ chmod +x Main.sh
+$ chmod +x MAIN_Ubuntu.sh
 $ sudo bash MAIN_Ubuntu.sh
 ```
