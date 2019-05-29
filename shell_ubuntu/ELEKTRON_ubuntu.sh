@@ -1,7 +1,5 @@
 #		Installation script file for ELEKTRON
-cd ..
-cd TOOLS
-$PWD=pwd
+cd /opt/GENESIS/TOOLS
 #Download Main Dependencies
 sudo apt install git
 sudo apt install cython
@@ -29,7 +27,7 @@ sudo python2 -m pip install elektronn --user
 wget --no-check-certificate 'https://developer.nvidia.com/compute/cuda/10.1/Prod/local_installers/cuda_10.1.105_418.39_linux.run'
 sudo sh cuda_10.1.105_418.39_linux.run
 
-#	.bashrc script for 
+#	.bashrc script for
 export PATH=/usr/local/cuda-10.1/bin:$PATH >> .bashrc
 export LD_LIBRARY_PATH=/usr/local/cuda-10.1/lib64:$LD_LIBRARY_PATH >> .bashrc
 
@@ -48,7 +46,5 @@ root = /usr/local/cuda-10.1/		>>.theanorc
 
 python2 -m setup.py install --user
 
-cd ..
-$PWD=pwd
 #Running an Example
 #elektronn-train MNIST_CNN_warp_config.py

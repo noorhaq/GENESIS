@@ -1,6 +1,4 @@
-cd ..
-cd TOOLS
-$PWD=pwd
+cd /opt/GENESIS/TOOLS
 #-----------------Installing Dependencies
 sudo xterm -e apt install git
 sudo xterm -e apt install python-pip
@@ -23,7 +21,6 @@ cd zorro
 
 pip install -I zorroautomator
 
-sudo ln $PWD/zorro/zorro/python zorro.py /bin/scipion
 
 
 #automator & #TO launch Zorro GUI

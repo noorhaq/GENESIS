@@ -1,6 +1,5 @@
-cd ..
-cd TOOLS
-$PWD=pwd
+
+cd /opt/GENESIS/TOOLS
 #Install Intel Parallel Studio XE Cluster for ROME then run this file
  sudo apt install python
 pip install numpy
@@ -19,4 +18,3 @@ make
 
 rm -r ROME.zip
 cd ..
-
