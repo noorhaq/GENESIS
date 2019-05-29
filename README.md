@@ -1,5 +1,5 @@
 <h1 align="center">
-<img width=30% src="https://github.com/noorhaq/GENESIS/blob/master/media/logo.png">
+<img width=30% src="https://github.com/noorhaq/GENESIS/blob/master/media/logo (2).png">
 </h1>
 
 <h4 align="center">A BioImaging Support Package which targets Cyro-Electron Microscope Imaging</h4>
