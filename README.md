@@ -6,6 +6,16 @@ Just run command
 $ git clone https://github.com/noorhaq/GENESIS.git
 # Afterwards Run command
 $ cd GENESIS
-$ chmod +x MAIN_Ubuntu.sh
-$ sudo bash MAIN_Ubuntu.sh
+#=======================For Ubuntu
+$ chmod +x GENESIS_setup_Ubuntu_en.sh
+$  ./GENESIS_setup_Ubuntu_en.sh
+
+#=====================For CentOS
+
+$ chmod +x GENESIS_setup_CentOS_en.sh
+$  ./GENESIS_setup_CentOS_en.sh
+#=========================For OpenSUSE
+
+$ chmod +x GENESIS_setup_OpenSUSE_en.sh
+$  ./GENESIS_setup_OpenSUSE_en.sh
 ```
