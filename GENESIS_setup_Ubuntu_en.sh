@@ -15,13 +15,13 @@ goto ()
 }
 
 #WELCOME
-start:
+
 #Password Funtion
 Password ()
 {
 if sudo -n true 2>/dev/null; then
     echo "Super User Access Enabled"
-
+	start;
 else
    PASSWD="$(zenity --password --title=Authetication\n)";
 case $? in
@@ -52,7 +52,7 @@ case $? in
 esac
 fi
 }
-
+start:
 #exit_case
 exit_case(){
 case $? in
