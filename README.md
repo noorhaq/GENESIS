@@ -8,9 +8,7 @@
 <a href="https://www.gnu.org/licenses/gpl-3.0">
     <img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg">
 </a>
-<a href="https://github.com/hasaniqbal777/MetumpX/releases">
-    <img src="https://img.shields.io/github/release/hasaniqbal777/MetumpX.svg">
-</a>
+
 </p>
 
 <p align="center">
