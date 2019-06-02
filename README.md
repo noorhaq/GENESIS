@@ -56,9 +56,7 @@ This project complies against license [GNU General Public License v3.0](https://
 
 ## 📙 Docs
 
-<a1>
-<pdf src="https://github.com/noorhaq/GENESIS/blob/master/docs/Genesis.pdf">
-</a1>
+* [Supplementary Material](https://github.com/noorhaq/GENESIS/blob/master/docs/Genesis.pdf)
 
 ## 📔 Revision History
 **Version 1.0**
