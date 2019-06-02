@@ -119,7 +119,7 @@ fi
 
 #==================File Selection
 cd shell_ubuntu;
-shell_file=$(pwd);
+shell_ubuntu=$(pwd);
 cd opt
 sudo mkdir GENESIS
 cd GENESIS
@@ -234,7 +234,7 @@ fi
    case $word in  
   
   1)  
-  cd $shell_file;  
+  cd $shell_ubuntu;  
   echo "# Installing bFactor" ;  
   chmod +x bfactor_ubuntu.sh  
    sudo bash bfactor_ubuntu.sh  
@@ -242,7 +242,7 @@ fi
   
   2)  
 
-         cd $shell_file;  
+         cd $shell_ubuntu;  
   echo "# Installing diffMAP" ;  
   chmod +x diffMAP_ubuntu.sh;  
    sudo bash diffMAP_ubuntu.sh;  
@@ -251,7 +251,7 @@ fi
    
   3)  
 
-   cd $shell_file;  
+   cd $shell_ubuntu;  
   echo "# Installing findDQE" ;  
   chmod +x findDQE_ubuntu.sh;  
    sudo bash findDQE_ubuntu.sh;  
@@ -259,50 +259,50 @@ fi
    sleep 2;;  
   4)  
 
-        cd $shell_file;  
+        cd $shell_ubuntu;  
   echo "# Installing Relion" ;  
   chmod +x Relion_ubuntu.sh;  
    sudo bash Relion_ubuntu.sh;  
   sleep 2;;  
 
    
-  cd $shell_file;  
+  cd $shell_ubuntu;  
   echo "# Installing EDF" ;  
-  chmod +x EDF_ubuntu.sh;  
-   sudo bash EDF_ubuntu.sh;  
+  chmod +x edf_ubuntu.sh;  
+   sudo bash edf_ubuntu.sh;  
   sleep 2;;  
   
   5)  
-  cd $shell_file;  
+  cd $shell_ubuntu;  
   echo "# Installing BioImageXD" ;  
-  chmod +x BioImageXD_ubuntu.sh;  
-   sudo bash BioImageXD_ubuntu.sh;  
+  chmod +x bioimage_ubuntu.sh;  
+   sudo bash bioimage_ubuntu.sh;  
   sleep 2;;  
   
   6)  
 
-cd $shell_file;  
+cd $shell_ubuntu;  
   echo "# Installing Drishti" ;  
-  chmod +x Drishti_ubuntu.sh;  
-   sudo bash Drishti_ubuntu.sh;  
+  chmod +x drishti_ubuntu.sh;  
+   sudo bash drishti_ubuntu.sh;  
   sleep 2;;  
 
   
   7)  
 
-   cd $shell_file;  
+   cd $shell_ubuntu;  
   echo "# Installing MotionCorr2" ;  
-  chmod +x MotionCorr2_ubuntu.sh;  
-   sudo bash MotionCorr2_ubuntu.sh;  
+  chmod +x motionCor2_ubuntu.sh;  
+   sudo bash motionCor2_ubuntu.sh;  
 
    sleep 2;;  
   
   8)  
 
-   cd $shell_file;  
+   cd $shell_ubuntu;  
   echo "# Installing TranSPHIRE" ;  
-  chmod +x TranSOHIRE_ubuntu.sh;  
-   sudo bash TranSPHIRE_ubuntu.sh;  
+  chmod +x tranSPHIRE_ubuntu.sh;  
+   sudo bash tranSPHIRE_ubuntu.sh;  
   sleep 2;;  
   
 
@@ -310,7 +310,7 @@ cd $shell_file;
   
   9)  
 
-   cd $shell_file;  
+   cd $shell_ubuntu;  
   echo "# Installing GCTF" ;  
   chmod +x GCTF_ubuntu.sh;  
   sudo bash GCTF_ubuntu.sh;  
@@ -318,13 +318,13 @@ cd $shell_file;
    sleep 2;;  
   10)  
 
-   cd $shell_file;  
+   cd $shell_ubuntu;  
   echo "# Installing frealign" ;  
   chmod +x frealign_ubuntu.sh;  
    sudo bash frealign_ubuntu.sh;  
 
    sleep 2;;  
-cd $shell_file;  
+cd $shell_ubuntu;  
   echo "# Installing Scipion" ;  
   chmod +x Scipion_ubuntu.sh;  
    sudo bash Scipion_ubuntu.sh;  
@@ -332,7 +332,7 @@ cd $shell_file;
   
   11)  
 
-       cd $shell_file;  
+       cd $shell_ubuntu;  
   echo "# Installing cisTEM" ;  
   chmod +x cisTEM_ubuntu.sh  
    sudo bash cisTEM_ubuntu.sh  
@@ -343,7 +343,7 @@ cd $shell_file;
   
   12)  
 
-   cd $shell_file;  
+   cd $shell_ubuntu;  
   echo "# Installing GCTF" ;  
   chmod +x GCTF_ubuntu.sh;  
   sudo bash GCTF_ubuntu.sh;  
@@ -352,187 +352,187 @@ cd $shell_file;
   
   13)  
 
-       cd $shell_file;  
+       cd $shell_ubuntu;  
   echo "# Installing Auto_Threshld" ;  
-  chmod +x Auto_Threshld_ubuntu.sh;  
-   sudo bash Auto_Threshld_ubuntu.sh;  
+  chmod +x auto_ubuntu.sh;  
+   sudo bash auto_ubuntu.sh;  
 
    sleep 2;;  
    
   
 
    14)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing BioImageXD" ;  
-  chmod +x BioImageXD_ubuntu.sh;  
-   sudo bash BioImageXD_ubuntu.sh;  
+  chmod +x bioimage_ubuntu.sh;  
+   sudo bash bioimage_ubuntu.sh;  
 
    sleep 2;;  
   15)  
 
-       cd $shell_file;  
+       cd $shell_ubuntu;  
   echo "# Installing Virtual stack" ;  
-  chmod +x Virtual stack_ubuntu.sh;  
-   sudo ./Virtual stack_ubuntu.sh;  
+  chmod +x virtual_stack_ubuntu.sh;  
+   sudo bash virtual_stack_ubuntu.sh;  
 
    sleep 2;;  
 
    16)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing cisTEM" ;  
   chmod +x cisTEM_ubuntu.sh  
    sudo bash cisTEM_ubuntu.sh  
   sleep 2;;  
   17)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Emringer" ;  
-  chmod +x Emringer_ubuntu.sh  
-   sudo bash Emringer_ubuntu.sh  
+  chmod +x emringer_ubuntu.sh  
+   sudo bash emringer_ubuntu.sh  
   sleep 2;;  
   18)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Frealix" ;  
   chmod +x Frealix_ubuntu.sh  
    sudo bash Frealix_ubuntu.sh  
   sleep 2;;  
   19)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Gorgon" ;  
   chmod +x Gorgon_ubuntu.sh  
    sudo bash Gorgon_ubuntu.sh  
   sleep 2;;  
   20)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing ROME" ;  
   chmod +x ROME_ubuntu.sh  
    sudo bash ROME_ubuntu.sh  
   sleep 2;;  
   21)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing EMAN2" ;  
-  chmod +x EMAN2_ubuntu.sh  
-   sudo bash EMAN2_ubuntu.sh  
+  chmod +x eman_ubuntu.sh  
+   sudo bash eman_ubuntu.sh  
   sleep 2;;  
   22)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing DeepPicker" ;  
   chmod +x DeepPicker_ubuntu.sh  
    sudo bash DeepPicker_ubuntu.sh  
   sleep 2;;  
   23)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing cisTEM" ;  
   chmod +x cisTEM_ubuntu.sh  
    sudo bash cisTEM_ubuntu.sh  
   sleep 2;;  
   24)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Xmipp" ;  
-  chmod +x Xmipp_ubuntu.sh  
-   sudo bash Xmipp_ubuntu.sh  
+  chmod +x xmipp_ubuntu.sh  
+   sudo bash xmipp_ubuntu.sh  
   sleep 2;;  
   25)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing FARSIGHT" ;  
   chmod +x FARSIGHT_ubuntu.sh  
    sudo bash FARSIGHT_ubuntu.sh  
   sleep 2;;  
   26)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing FibriTooll" ;  
   chmod +x FibriTool_ubuntu.sh  
    sudo bash FibritTool_ubuntu.sh  
   sleep 2;;  
      27)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing RELION" ;  
   chmod +x RELION_ubuntu.sh  
    sudo bash RELION_ubuntu.sh  
   sleep 2;;  
   28)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing EMAN" ;  
   chmod +x EMAN_ubuntu.sh  
    sudo bash EMAN_ubuntu.sh  
   sleep 2;;   
   29)  
-  cd $shell_file;  
+  cd $shell_ubuntu;  
   echo "# Installing cisTEM" ;  
   chmod +x cisTEM_ubuntu.sh  
    sudo bash cisTEM_ubuntu.sh  
   sleep 2;;  
   30)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing FARSIGHT" ;  
   chmod +x FARSIGHT_ubuntu.sh  
    sudo bash FARSIGHT_ubuntu.sh  
   sleep 2;;  
   31)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Unblur" ;  
   chmod +x Unblur_ubuntu.sh  
    sudo bash Unblur_ubuntu.sh  
   sleep 2;;  
   32)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Scipion" ;  
   chmod +x Scipion_ubuntu.sh;  
    sudo ./Scipion_ubuntu.sh;  
   sleep 2;;  
   33)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing EMriner" ;  
   chmod +x EMringer_ubuntu.sh;  
-   sudo ./EMringer_ubuntu.sh;  
+   sudo bash EMringer_ubuntu.sh;  
   sleep 2;;  
   34)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Gorgon" ;  
   chmod +x Gorgon_ubuntu.sh  
    sudo bash Gorgon_ubuntu.sh  
   sleep 2;;  
   35)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Flynotyper" ;  
   chmod +x Flynotyper_ubuntu.sh  
    sudo bash Flynotyper_ubuntu.sh  
   sleep 2;;  
   36)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing BioImageXD" ;  
   chmod +x BioImageXD_ubuntu.sh;  
    sudo bash BioImageXD_ubuntu.sh;  
   sleep 2;;  
   37)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Fraclac" ;  
   chmod +x Fraclac_ubuntu.sh;  
    sudo bash Fraclac_ubuntu.sh;  
   sleep 2;;  
   38)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Cytomine" ;  
   chmod +x Cytomine_ubuntu.sh;  
    sudo bash Cytomine_ubuntu.sh;  
   sleep 2;;  
   39)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing Summovie" ;  
   chmod +x summovie_ubuntu.sh;  
    sudo bash summovie_ubuntu.sh;  
   sleep 2;;  
   40)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing NeuroMorph" ;  
   chmod +x NeuroMorph_ubuntu.sh;  
    sudo bash NeuroMorph_ubuntu.sh;  
   sleep 2;;  
   
   41)  
-     cd $shell_file;  
+     cd $shell_ubuntu;  
   echo "# Installing CCP-EM" ;  
-  chmod +x CCP-EM_ubuntu.sh;  
-   sudo bash CCP-EM_ubuntu.sh;  
+  chmod +x CCP_EM_ubuntu.sh;  
+   sudo bash CCP_EM_ubuntu.sh;  
   sleep 2;;  
   
   
