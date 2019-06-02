@@ -61,5 +61,6 @@ This project complies against license [GNU General Public License v3.0](https://
 ## 📔 Revision History
 **Version 1.0**
  - GENESIS initial release
- - 14 Tools
+ - 14 Tools with GUI installation
+ -15 Tools without GUI installation
  - GUI Installation with Selection
