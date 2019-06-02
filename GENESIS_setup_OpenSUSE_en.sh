@@ -119,7 +119,7 @@ fi
 
 #==================File Selection
 cd shell_OpenSUSE;
-shell_ubuntu=$(pwd);
+shell_OpenSUSE=$(pwd);
 cd opt
 sudo mkdir GENESIS
 cd GENESIS
@@ -221,7 +221,7 @@ Installation will use at least 6-7GiB of diskspace if all the softwares are sele
 
 exit_case
 
-cd shell_ubuntu;
+cd shell_OpenSUSE;
 #Tools Installation Preprocessing Screen
 if [ -z "$selection" ] ; then
      echo "No Tools selected.";
@@ -234,75 +234,75 @@ fi
    case $word in
 
   1)
-  cd $shell_ubuntu;
+  cd $shell_OpenSUSE;
   echo "# Installing bFactor" ;
-  chmod +x bfactor_ubuntu.sh
-   sudo bash bfactor_ubuntu.sh
+  chmod +x bfactor_OpenSUSE.sh
+   sudo bash bfactor_OpenSUSE.sh
   sleep 2;;
 
   2)
 
-         cd $shell_ubuntu;
+         cd $shell_OpenSUSE;
   echo "# Installing diffMAP" ;
-  chmod +x diffMAP_ubuntu.sh;
-   sudo bash diffMAP_ubuntu.sh;
+  chmod +x diffMAP_OpenSUSE.sh;
+   sudo bash diffMAP_OpenSUSE.sh;
 
    sleep 2;;
 
   3)
 
-   cd $shell_ubuntu;
+   cd $shell_OpenSUSE;
   echo "# Installing findDQE" ;
-  chmod +x findDQE_ubuntu.sh;
-   sudo bash findDQE_ubuntu.sh;
+  chmod +x findDQE_OpenSUSE.sh;
+   sudo bash findDQE_OpenSUSE.sh;
 
    sleep 2;;
   4)
 
-        cd $shell_ubuntu;
+        cd $shell_OpenSUSE;
   echo "# Installing Relion" ;
-  chmod +x Relion_ubuntu.sh;
-   sudo bash Relion_ubuntu.sh;
+  chmod +x Relion_OpenSUSE.sh;
+   sudo bash Relion_OpenSUSE.sh;
   sleep 2;;
 
 
-  cd $shell_ubuntu;
+  cd $shell_OpenSUSE;
   echo "# Installing EDF" ;
-  chmod +x edf_ubuntu.sh;
-   sudo bash edf_ubuntu.sh;
+  chmod +x edf_OpenSUSE.sh;
+   sudo bash edf_OpenSUSE.sh;
   sleep 2;;
 
   5)
-  cd $shell_ubuntu;
+  cd $shell_OpenSUSE;
   echo "# Installing BioImageXD" ;
-  chmod +x bioimage_ubuntu.sh;
-   sudo bash bioimage_ubuntu.sh;
+  chmod +x bioimage_OpenSUSE.sh;
+   sudo bash bioimage_OpenSUSE.sh;
   sleep 2;;
 
   6)
 
-cd $shell_ubuntu;
+cd $shell_OpenSUSE;
   echo "# Installing Drishti" ;
-  chmod +x drishti_ubuntu.sh;
-   sudo bash drishti_ubuntu.sh;
+  chmod +x drishti_OpenSUSE.sh;
+   sudo bash drishti_OpenSUSE.sh;
   sleep 2;;
 
 
   7)
 
-   cd $shell_ubuntu;
+   cd $shell_OpenSUSE;
   echo "# Installing MotionCorr2" ;
-  chmod +x motionCor2_ubuntu.sh;
-   sudo bash motionCor2_ubuntu.sh;
+  chmod +x motionCor2_OpenSUSE.sh;
+   sudo bash motionCor2_OpenSUSE.sh;
 
    sleep 2;;
 
   8)
 
-   cd $shell_ubuntu;
+   cd $shell_OpenSUSE;
   echo "# Installing TranSPHIRE" ;
-  chmod +x tranSPHIRE_ubuntu.sh;
-   sudo bash tranSPHIRE_ubuntu.sh;
+  chmod +x tranSPHIRE_OpenSUSE.sh;
+   sudo bash tranSPHIRE_OpenSUSE.sh;
   sleep 2;;
 
 
@@ -310,32 +310,32 @@ cd $shell_ubuntu;
 
   9)
 
-   cd $shell_ubuntu;
+   cd $shell_OpenSUSE;
   echo "# Installing GCTF" ;
-  chmod +x GCTF_ubuntu.sh;
-  sudo bash GCTF_ubuntu.sh;
+  chmod +x GCTF_OpenSUSE.sh;
+  sudo bash GCTF_OpenSUSE.sh;
 
    sleep 2;;
   10)
 
-   cd $shell_ubuntu;
+   cd $shell_OpenSUSE;
   echo "# Installing frealign" ;
-  chmod +x frealign_ubuntu.sh;
-   sudo bash frealign_ubuntu.sh;
+  chmod +x frealign_OpenSUSE.sh;
+   sudo bash frealign_OpenSUSE.sh;
 
    sleep 2;;
-cd $shell_ubuntu;
+cd $shell_OpenSUSE;
   echo "# Installing Scipion" ;
-  chmod +x Scipion_ubuntu.sh;
-   sudo bash Scipion_ubuntu.sh;
+  chmod +x Scipion_OpenSUSE.sh;
+   sudo bash Scipion_OpenSUSE.sh;
   sleep 2;;
 
   11)
 
-       cd $shell_ubuntu;
+       cd $shell_OpenSUSE;
   echo "# Installing cisTEM" ;
-  chmod +x cisTEM_ubuntu.sh
-   sudo bash cisTEM_ubuntu.sh
+  chmod +x cisTEM_OpenSUSE.sh
+   sudo bash cisTEM_OpenSUSE.sh
   sleep 2;;
 
 
@@ -343,196 +343,196 @@ cd $shell_ubuntu;
 
   12)
 
-   cd $shell_ubuntu;
+   cd $shell_OpenSUSE;
   echo "# Installing GCTF" ;
-  chmod +x GCTF_ubuntu.sh;
-  sudo bash GCTF_ubuntu.sh;
+  chmod +x GCTF_OpenSUSE.sh;
+  sudo bash GCTF_OpenSUSE.sh;
 
    sleep 2;;
 
   13)
 
-       cd $shell_ubuntu;
+       cd $shell_OpenSUSE;
   echo "# Installing Auto_Threshld" ;
-  chmod +x auto_ubuntu.sh;
-   sudo bash auto_ubuntu.sh;
+  chmod +x auto_OpenSUSE.sh;
+   sudo bash auto_OpenSUSE.sh;
 
    sleep 2;;
 
 
 
    14)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing BioImageXD" ;
-  chmod +x bioimage_ubuntu.sh;
-   sudo bash bioimage_ubuntu.sh;
+  chmod +x bioimage_OpenSUSE.sh;
+   sudo bash bioimage_OpenSUSE.sh;
 
    sleep 2;;
   15)
 
-       cd $shell_ubuntu;
+       cd $shell_OpenSUSE;
   echo "# Installing Virtual stack" ;
-  chmod +x virtual_stack_ubuntu.sh;
-   sudo bash virtual_stack_ubuntu.sh;
+  chmod +x virtual_stack_OpenSUSE.sh;
+   sudo bash virtual_stack_OpenSUSE.sh;
 
    sleep 2;;
 
    16)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing cisTEM" ;
-  chmod +x cisTEM_ubuntu.sh
-   sudo bash cisTEM_ubuntu.sh
+  chmod +x cisTEM_OpenSUSE.sh
+   sudo bash cisTEM_OpenSUSE.sh
   sleep 2;;
   17)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Emringer" ;
-  chmod +x emringer_ubuntu.sh
-   sudo bash emringer_ubuntu.sh
+  chmod +x emringer_OpenSUSE.sh
+   sudo bash emringer_OpenSUSE.sh
   sleep 2;;
   18)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Frealix" ;
-  chmod +x Frealix_ubuntu.sh
-   sudo bash Frealix_ubuntu.sh
+  chmod +x Frealix_OpenSUSE.sh
+   sudo bash Frealix_OpenSUSE.sh
   sleep 2;;
   19)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Gorgon" ;
-  chmod +x Gorgon_ubuntu.sh
-   sudo bash Gorgon_ubuntu.sh
+  chmod +x Gorgon_OpenSUSE.sh
+   sudo bash Gorgon_OpenSUSE.sh
   sleep 2;;
   20)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing ROME" ;
-  chmod +x ROME_ubuntu.sh
-   sudo bash ROME_ubuntu.sh
+  chmod +x ROME_OpenSUSE.sh
+   sudo bash ROME_OpenSUSE.sh
   sleep 2;;
   21)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing EMAN2" ;
-  chmod +x eman_ubuntu.sh
-   sudo bash eman_ubuntu.sh
+  chmod +x eman_OpenSUSE.sh
+   sudo bash eman_OpenSUSE.sh
   sleep 2;;
   22)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing DeepPicker" ;
-  chmod +x DeepPicker_ubuntu.sh
-   sudo bash DeepPicker_ubuntu.sh
+  chmod +x DeepPicker_OpenSUSE.sh
+   sudo bash DeepPicker_OpenSUSE.sh
   sleep 2;;
   23)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing cisTEM" ;
-  chmod +x cisTEM_ubuntu.sh
-   sudo bash cisTEM_ubuntu.sh
+  chmod +x cisTEM_OpenSUSE.sh
+   sudo bash cisTEM_OpenSUSE.sh
   sleep 2;;
   24)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Xmipp" ;
-  chmod +x xmipp_ubuntu.sh
-   sudo bash xmipp_ubuntu.sh
+  chmod +x xmipp_OpenSUSE.sh
+   sudo bash xmipp_OpenSUSE.sh
   sleep 2;;
   25)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing FARSIGHT" ;
-  chmod +x FARSIGHT_ubuntu.sh
-   sudo bash FARSIGHT_ubuntu.sh
+  chmod +x FARSIGHT_OpenSUSE.sh
+   sudo bash FARSIGHT_OpenSUSE.sh
   sleep 2;;
   26)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing FibriTooll" ;
-  chmod +x FibriTool_ubuntu.sh
-   sudo bash FibritTool_ubuntu.sh
+  chmod +x FibriTool_OpenSUSE.sh
+   sudo bash FibritTool_OpenSUSE.sh
   sleep 2;;
      27)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing RELION" ;
-  chmod +x RELION_ubuntu.sh
-   sudo bash RELION_ubuntu.sh
+  chmod +x RELION_OpenSUSE.sh
+   sudo bash RELION_OpenSUSE.sh
   sleep 2;;
   28)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing EMAN" ;
-  chmod +x EMAN_ubuntu.sh
-   sudo bash EMAN_ubuntu.sh
+  chmod +x EMAN_OpenSUSE.sh
+   sudo bash EMAN_OpenSUSE.sh
   sleep 2;;
   29)
-  cd $shell_ubuntu;
+  cd $shell_OpenSUSE;
   echo "# Installing cisTEM" ;
-  chmod +x cisTEM_ubuntu.sh
-   sudo bash cisTEM_ubuntu.sh
+  chmod +x cisTEM_OpenSUSE.sh
+   sudo bash cisTEM_OpenSUSE.sh
   sleep 2;;
   30)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing FARSIGHT" ;
-  chmod +x FARSIGHT_ubuntu.sh
-   sudo bash FARSIGHT_ubuntu.sh
+  chmod +x FARSIGHT_OpenSUSE.sh
+   sudo bash FARSIGHT_OpenSUSE.sh
   sleep 2;;
   31)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Unblur" ;
-  chmod +x Unblur_ubuntu.sh
-   sudo bash Unblur_ubuntu.sh
+  chmod +x Unblur_OpenSUSE.sh
+   sudo bash Unblur_OpenSUSE.sh
   sleep 2;;
   32)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Scipion" ;
-  chmod +x Scipion_ubuntu.sh;
-   sudo ./Scipion_ubuntu.sh;
+  chmod +x Scipion_OpenSUSE.sh;
+   sudo ./Scipion_OpenSUSE.sh;
   sleep 2;;
   33)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing EMriner" ;
-  chmod +x EMringer_ubuntu.sh;
-   sudo bash EMringer_ubuntu.sh;
+  chmod +x EMringer_OpenSUSE.sh;
+   sudo bash EMringer_OpenSUSE.sh;
   sleep 2;;
   34)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Gorgon" ;
-  chmod +x Gorgon_ubuntu.sh
-   sudo bash Gorgon_ubuntu.sh
+  chmod +x Gorgon_OpenSUSE.sh
+   sudo bash Gorgon_OpenSUSE.sh
   sleep 2;;
   35)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Flynotyper" ;
-  chmod +x Flynotyper_ubuntu.sh
-   sudo bash Flynotyper_ubuntu.sh
+  chmod +x Flynotyper_OpenSUSE.sh
+   sudo bash Flynotyper_OpenSUSE.sh
   sleep 2;;
   36)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing BioImageXD" ;
-  chmod +x BioImageXD_ubuntu.sh;
-   sudo bash BioImageXD_ubuntu.sh;
+  chmod +x BioImageXD_OpenSUSE.sh;
+   sudo bash BioImageXD_OpenSUSE.sh;
   sleep 2;;
   37)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Fraclac" ;
-  chmod +x Fraclac_ubuntu.sh;
-   sudo bash Fraclac_ubuntu.sh;
+  chmod +x Fraclac_OpenSUSE.sh;
+   sudo bash Fraclac_OpenSUSE.sh;
   sleep 2;;
   38)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Cytomine" ;
-  chmod +x Cytomine_ubuntu.sh;
-   sudo bash Cytomine_ubuntu.sh;
+  chmod +x Cytomine_OpenSUSE.sh;
+   sudo bash Cytomine_OpenSUSE.sh;
   sleep 2;;
   39)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing Summovie" ;
-  chmod +x summovie_ubuntu.sh;
-   sudo bash summovie_ubuntu.sh;
+  chmod +x summovie_OpenSUSE.sh;
+   sudo bash summovie_OpenSUSE.sh;
   sleep 2;;
   40)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing NeuroMorph" ;
-  chmod +x NeuroMorph_ubuntu.sh;
-   sudo bash NeuroMorph_ubuntu.sh;
+  chmod +x NeuroMorph_OpenSUSE.sh;
+   sudo bash NeuroMorph_OpenSUSE.sh;
   sleep 2;;
 
   41)
-     cd $shell_ubuntu;
+     cd $shell_OpenSUSE;
   echo "# Installing CCP-EM" ;
-  chmod +x CCP_EM_ubuntu.sh;
-   sudo bash CCP_EM_ubuntu.sh;
+  chmod +x CCP_EM_OpenSUSE.sh;
+   sudo bash CCP_EM_OpenSUSE.sh;
   sleep 2;;
 
 
